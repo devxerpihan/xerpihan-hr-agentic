@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="rotate(-30 100 100) translate(-10, 0)">
+    <!-- Top Pin -->
+    <g>
+      <path d="M160 80 L90 80 A10,10 0 0 0 80 90 A10,10 0 0 0 90 100 L100 100 C 110 95, 120 105, 130 100 C 140 95, 150 105, 160 100" stroke="#0284c7" stroke-width="6" fill="none"/>
+      <circle cx="163" cy="80" r="4" fill="#0284c7"/>
+      <circle cx="163" cy="100" r="4" fill="#0284c7"/>
+    </g>
+    <!-- Bottom Pin -->
+    <g transform="translate(12, 12)">
+      <path d="M160 80 L90 80 A10,10 0 0 0 80 90 A10,10 0 0 0 90 100 L100 100 C 110 95, 120 105, 130 100 C 140 95, 150 105, 160 100" stroke="#0284c7" stroke-width="6" fill="none"/>
+      <circle cx="163" cy="80" r="4" fill="#0284c7"/>
+      <circle cx="163" cy="100" r="4" fill="#0284c7"/>
+    </g>
+  </g>
+</svg>

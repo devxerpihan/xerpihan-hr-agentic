@@ -1,0 +1,60 @@
+<svg width="360" height="90" viewBox="0 0 360 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients for gold and red -->
+  <defs>
+    <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#DAA520" />
+    </linearGradient>
+    <linearGradient id="red-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B0000" />
+      <stop offset="100%" stop-color="#B22222" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Kanzashi Group -->
+  <g transform="rotate(-15 60 45)">
+    <!-- Main hairpin stick (dark lacquered wood) -->
+    <path d="M20 35 L100 35" stroke="#4a2c2a" stroke-width="4.5" stroke-linecap="round"/>
+    
+    <!-- Imperial Chrysanthemum Crest -->
+    <g transform="translate(110, 35)">
+      <!-- Outer Petals (Gold) -->
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(0)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(22.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(45)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(67.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(90)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(112.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(135)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(157.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(180)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(202.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(225)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(247.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(270)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(292.5)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(315)"/>
+      <path d="M0 -15 L5 -5 L0 -7 L-5 -5 Z" fill="url(#gold-gradient)" transform="rotate(337.5)"/>
+      
+      <!-- Center (Deep Red) -->
+      <circle cx="0" cy="0" r="8" fill="url(#red-gradient)"/>
+      <circle cx="0" cy="0" r="4" fill="url(#gold-gradient)"/>
+    </g>
+
+    <!-- Dangling Ornaments (Shidare) -->
+    <g transform="translate(110, 35)">
+      <path d="M0 15 C 0 25, -10 28, -12 38" stroke="#DAA520" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="-12" cy="38" r="3" fill="url(#red-gradient)"/>
+      
+      <path d="M5 14 C 5 22, 0 24, -2 32" stroke="#DAA520" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="-2" cy="32" r="2" fill="url(#red-gradient)"/>
+    </g>
+  </g>
+
+  <!-- Text Group -->
+  <g>
+    <text x="140" y="52" font-family="Garamond, serif" font-size="40" font-weight="bold" fill="#111827" letter-spacing="-1">Hairpin</text>
+    <text x="140" y="74" font-family="Garamond, serif" font-size="20" font-weight="normal" fill="url(#gold-gradient)">AI</text>
+    <text x="190" y="74" font-family="Garamond, serif" font-size="14" fill="#6b7280">Strategic HR Partner</text>
+  </g>
+</svg>
