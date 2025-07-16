@@ -1,0 +1,6 @@
+Flask==3.0.0
+gunicorn==22.0.0
+strands-agents-tools[anthropic]
+anthropic==0.25.8
+python-dotenv==1.0.1
+google-cloud-secret-manager==2.20.0 
